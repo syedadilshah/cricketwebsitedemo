@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body 
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_menu
+{
+    background: #17417f;
+  
+}
+.ml-auto
+{
+    margin-left: auto !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: white;
+    padding: 0px 15px;
+}
+.slider .slide .slide-image img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+    position: relative;
+}
+.slider .slide .slide-content
+{
+    position: absolute;
+    top: 30%;
+    margin-left: 22rem;    
+}
+
+
+.slide .slide-content  .slide-heading h3
+{
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+.slide .slide-content .slide-button .btn 
+{
+width: 12rem;
+height: 3rem;
+color: white;
+font-size: 20px;
+background-color: #17417f;
+border:1px solid #17417f;
+outline:none;
+border-radius: 2px;
+
+
+}
+.slide .slide-content .slide-button {
+    margin:0 202px;
+}
+.slide .slide-content .slide-button .btn:hover 
+{
+    background-color: transparent;
+}
+.left-for-slide2
+{
+    color: white;
+    font-size: 22px;
+    width: 50px;
+    position: absolute;
+    top: 42%;
+    z-index: 1;
+    border: 1px solid white;
+    background-color: #17417f;
+    padding: 14px;
+    border-radius: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.right-for-slide2 {
+    color: white;
+    font-size: 22px;
+    width: 50px;
+    position: absolute;
+    top: 42%;
+    background-color: #17417f;
+    right: 0px;
+    z-index: 1;
+    border: 1px solid white;
+    padding: 14px;
+    border-radius: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.right-for-slide2:hover 
+{
+    background-color: white;
+    color: #17417f;
+    cursor:pointer;
+}
+.left-for-slide2:hover{
+    background-color: white;
+    color: #17417f;
+    cursor:pointer;
+}
+
+
+
+
+/*
+##################################################3
+About Us 
+##################################################
+
+*/
+.about_us
+{
+    padding: 50px 0px;
+}
+
+.about_us_left_wrapper
+{
+    padding-top: 70px;
+}
+
+.about_us .about_us_left_content p
+{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.about_us .about_us_left h4
+
+{
+    color: #17417f;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 20px;
+}
+.about_us .about_us_left h4::before 
+{
+    content: '';
+    width: 171px;
+ 
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    margin-top: 2px;
+    background-color: #17417f;
+}
+.about_us .about_us_left h4::after 
+{
+    content: '';
+    width: 85px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    top: 59px;
+    left: 0%;
+    margin-top: -10px;
+    background-color: #17417f;
+}
+.about_left_button .btn 
+{
+    width: 202px;
+    height: 50px;
+    color: white;
+    background: #17417f;
+    font-size: 20px;
+    font-weight: 500;
+}
+.about_left_button .btn:hover 
+{
+    background-color: transparent;
+    border: 1px solid #17417f;
+    color: #17417f;
+}
+
+
+
+
+.our_team
+{
+    padding:50px 0px;
+}
+
+.our_team h3 
+{
+    color: #17417f;
+    font-size: 36px;
+    font-weight: 600;
+text-align: center;
+position: relative;
+}
+.our_team h3::before 
+{
+    content: '';
+    width: 83px;
+ 
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    margin-top: 2px;
+    background-color: #17417f;
+}
+.our_team h3::after 
+{
+    content: '';
+    width: 47px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    top: 59px;
+    left: 44%;
+    background-color: #17417f;
+}
+.our_team .team-slider
+{
+    margin-top: 60px;
+}
+.our_team .team-slider .team-player-name h4 
+{
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+.our_team .team-slider  .team-player-socail
+{
+    text-align: center;
+}
+.our_team .team-slider  .team-player-socail i{
+    font-size: 20px;
+    background: #17417f;
+    width: 36px;
+    height: 35px;
+    color: white;
+    padding: 7px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.our_team .team-slider  .team-player-socail i:hover 
+{
+    background-color: transparent;
+    border: 1px solid #17417f;
+    color: #17417f;
+}
+.our_team .team-slider .team-slider-image
+{
+    box-shadow: 0px 0 25px 0 rgb(16 110 234 / 10%);
+    padding-bottom: 30px;
+}
+.team-slide
+{
+    margin-right: 4px;
+    position: relative;
+}
+ .team-slider-image .card-img a 
+{
+position: relative;
+display: block;
+}
+.team-slider-image .card-img a::before 
+{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #17417f;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    transition: .3s all;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.team-slider-image .card-img:hover a::before 
+{
+transform: scaleY(1);
+}
+.plays1
+{
+    color: white;
+    font-size: 22px;
+    width: 50px;
+    position: absolute;
+    top: 42%;
+    background-color: #17417f;
+    right: -19px;
+    z-index: 1;
+    border: 1px solid white;
+    padding: 14px;
+    border-radius: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.plays2
+{
+    color: white;
+    font-size: 22px;
+    width: 50px;
+    position: absolute;
+    top: 42%;
+    left: -20px;
+    z-index: 1;
+    border: 1px solid white;
+    background-color: #17417f;
+    padding: 14px;
+    border-radius: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+/*
+
+#############################################33
+GALLERY
+###############################################
+*/
+.gallery {
+    padding: 20px 0px;
+}
+.gallery h3 
+{
+    text-align: center;
+}
+
+.gallery-wrapper .nav 
+{
+    padding: 30px 0px ;
+    justify-content: center;
+}
+
+.gallery-wrapper  .nav-pills .nav-link {
+    background: 0 0;
+
+    padding: 10px 40px;
+    border-radius: .25rem;
+    border: 1px solid #17417f;
+    margin-right: 10px;
+    color: #17417f;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+.gallery-wrapper .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #17417f;
+}
+
+.gallery .gallery_subitems
+{
+    padding: 30px 0px;
+}
+.gallery .gallery_subitems .gallery_items_photos{
+
+}
+
+.copyright h3
+{
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.slider-para 
+{
+    color:white;
+ width: 40%;
+}
+
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+@media only screen and (min-width:0px) and (max-width:767px)
+{
+    .slider .slide .slide-content
+{
+
+    font-size: 1.4rem !important;
+    margin-left: 112px !important;   
+}
+.slide .slide-content .slide-button
+{
+    margin: 0 44px !important;
+}
+.slide .slide-content .slide-button .btn{
+    width: 10rem !important;
+}
+.our_team h3::after {
+
+    left:34% !important;
+}
+
+.slide .slide-content  .slide-heading h3
+{
+ 
+    font-size: 1.4rem !important;
+    
+}
+.gallery-wrapper .nav-pills .nav-link {
+    padding: 10px 28px !important;
+    margin-bottom: 10px;
+
+}
+.recent-news .recent-news-wrapper:hover{
+   
+    transform: scale(1) !important;
+}
+}
+
+
+/*
+
+#################################################3
+Contact Us
+###################################################
+
+*/
+.contact-us
+{
+    padding: 30px 0px ;
+    background-color: #17417f;
+}
+
+
+.contact-us .contact-us-right label{
+    color: white;
+    font-size: 18;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 10px 0px;
+}
+.contact-us .contact-us-right .form-control
+{
+    background: transparent;
+    border: 2px solid white;
+    box-shadow: none;
+    height: 45px;
+    font-size: 13px;
+    color: white;
+}
+.contact-us .contact-us-right ::placeholder
+{
+    color: white;
+}
+.contact-us .contact-us-right textarea{
+    background: transparent;
+    border: 2px solid white;
+    box-shadow: none;
+
+    font-size: 13px;
+    color: white;
+    height: 90px !important;
+}
+.contact-us .contact-us-right button {
+    background: transparent;
+    padding: 11px 71px;
+    border: 2px solid white;
+    box-shadow: none;
+}
+
+/*
+
+#################################################3
+Recent News
+###################################################
+
+*/
+.recent-news {
+    padding: 50px 0px ;
+  
+}
+.recent-news .recent-news-heading h3{
+    color: #17417f;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+}
+.recent-news .recent-news-heading h3::before 
+{
+    content: '';
+    width: 130px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    margin-top: 2px;
+    background-color: #17417f;
+}
+.recent-news .recent-news-heading h3::after{
+    content: '';
+    width: 68px;
+    height: 3px;
+    position: absolute;
+    top: 55px;
+    left: 35.67%;
+    background-color: #17417f;
+}
+.recent-news  .recent-news-tags-time 
+{
+    padding: 10px 0px;
+}
+.recent-news  .recent-news-tags-time .recent-news-time{}
+.recent-news  .recent-news-tags-time .recent-news-time p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #17417f;
+    margin-bottom: 0rem;
+}
+.recent-news  .recent-news-tags-time .recent-news-tags span{
+    font-size: 14px;
+    color: #17417f;
+    font-weight: 600;
+}
+.recent-news .recent-news-title h3 {
+
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 500;
+    color: black;
+
+}
+.recent-news .ecent-news-description p{
+    margin-bottom: 0rem;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.recent-news .recent-news-wrapper{
+    margin-top: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transition: all .3s;
+}
+.recent-news .recent-news-wrapper:hover{
+   
+    transform: scale(1.1);
+}
+.recent-news .recent-news-content {
+    padding: 5px 10px;
+}
+.recent-news .recent-news-container{
+    padding: 40px 0px;
+}
+.recent-news .recent-news-wrapper .recent-news-image img {
+   
+}
+
+
+
+
+
+.footer{
+    background: #17417f;
+    padding: 20px 0px;
+  position: relative;
+}
+.footer::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 116px;
+    border-top: 1px solid white;
+    width: 83%;
+}
+.footer .footer-first h3{
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.footer .footer-first p{
+font-size: 16px;
+color: white;
+font-weight: 300;
+}
+.footer  .footer-socail li {
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    margin-top: 4px;
+}
+.footer  .footer-socail i{
+    color: white;
+    font-size: 12+px;
+    margin-right: 10px;
+  
+
+}
+.footer-second h3 {
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer-second ul li a{
+font-size: 14px;
+font-weight: 300;
+color: white;
+margin-bottom:8px;
+text-decoration: none;
+}
+
+.footer-third h3 {
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.footer .footer-third a {
+    text-decoration: none;
+    background: #ffffff;
+    /* width: 20px; */
+    /* padding: 10px; */
+    /* height: 23px; */
+    padding: 6px 15px;
+    /* border-radius: 50%; */
+    font-size: 19px;
+    margin-right: 4px;
+}
+
+.gallery-head h3
+{
+    color: #17417f;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+}
+.gallery-head h3::before {
+
+
+    content: '';
+    width: 75px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    margin-top: 2px;
+    margin-left: 5px;
+    background-color: #17417f;
+
+}
+.gallery-head h3::after 
+{
+    content: "";
+    width: 43px;
+    height: 3px;
+    position: absolute;
+    top: 55px;
+    left: 43.6%;
+    background-color: rgb(23, 65, 127);
+}
+.team-slide {
+   
+    border-bottom: 10px solid #17417f;
+}
